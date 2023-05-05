@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    /* width: 100vw; */
+    height: 40px;
+    padding: 10px 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.header .button{
+    width: 6rem;
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(155, 24, 216);
+    color: aliceblue;
+    cursor: pointer;
+}

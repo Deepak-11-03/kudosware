@@ -1,0 +1,74 @@
+.container{
+    margin: auto;
+    padding: 10px;
+    max-width: 26rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+#error{
+    width: 20rem;
+    height: 1.6rem;
+    padding: 0.6rem;
+    position: fixed;
+    top: 9%;
+    background:#df4141;
+    color: rgb(255, 255, 255);
+    border: 1px solid #b03333;
+    border-radius: 8px;
+    font-size: 1rem;
+    z-index: 16;
+}
+#success{
+    width: 20rem;
+    height: 1.8rem;
+    padding: .5rem;
+    position: absolute;
+    top: 3.5rem;
+    background: #2f9dfb;
+    border: 2px solid #00536e;
+    border-radius: 5px;
+}
+form{
+    padding: 3rem 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+form input{
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+form input[type="file"]{
+    padding: 6px;
+    border: 1px solid;
+    font-size: 18px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+form input:focus{
+    outline: 2px solid #0459ad;
+}
+.container #buttondiv{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+.container #buttondiv button{
+    width: 40%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(155, 24, 216);
+    color: aliceblue;
+    cursor: pointer;
+}

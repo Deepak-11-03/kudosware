@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background-image: url("https://res.cloudinary.com/djpee6nuc/image/upload/v1683178048/backgroundImage_r5frlc.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  user-select: none;
+  color: white;
+}
+
+html,body{
+  overflow-x: hidden;
+}

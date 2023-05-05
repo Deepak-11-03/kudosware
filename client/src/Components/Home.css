@@ -1,0 +1,10 @@
+.home-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.home-content div{
+    max-width: 30rem;
+}
