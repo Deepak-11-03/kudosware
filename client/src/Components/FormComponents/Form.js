@@ -53,7 +53,7 @@ function Form() {
           setLoading(true)
           const url = await imageUpload(file);  // getting image url from cloudinary
           user.resume = url;
-          let data = await fetch("http://localhost:4000/register", {
+          let data = await fetch("https://kudosware-0vbm.onrender.com/register", {
             mode: "cors",
             method: "POST",
             headers: {
